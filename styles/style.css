@@ -1,0 +1,44 @@
+body {
+	background: #333;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+.hintText {
+	position: absolute;
+	background: transparent;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light";
+	color: #567659;
+	top: 70%;
+}
+.scores {
+	position: absolute;
+	background: transparent;
+	font-size: 40px;
+	font-family: "Marker Felt";
+	color: white;
+	top: 5%;
+}
+
+.paddle {
+	position: absolute;
+	background: #33FF29;
+	height: 50px;
+	width: 7px;
+	border-radius: 15%
+}
+
+.ball {
+	position: absolute;
+	background: #14EA9A;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
