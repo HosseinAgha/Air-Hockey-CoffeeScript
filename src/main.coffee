@@ -17,10 +17,3 @@ game1.eventListener.on "scored", (winner) ->
   isPlaying = false
 
 
-
-
-
-
-
-
-

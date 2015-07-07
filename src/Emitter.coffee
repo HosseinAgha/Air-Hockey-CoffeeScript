@@ -16,4 +16,3 @@ module.exports = class Emitter
         callback payload
 
     return
-
