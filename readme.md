@@ -3,7 +3,7 @@
 ### How to build the project
 To build the project you should first download and install [Node.js](https://nodejs.org/download/).
 when nodejs installed, you shall do the steps below:  
-You can skip parts 1 to 3 if you don't want to install these packages globally, but if you want to continue development using CoffeeScript it is recommended (specially coffee-script package).
+You can skip parts 1 to 3 if you don't want to install these packages globally, they will be installed locally inside your node project.
 
 1. install [CoffeeScript](http://coffeescript.org/) globally by using node package manager:   
    enter this script in your terminal or command prompt: `npm -g install coffee-script`
@@ -18,6 +18,4 @@ You can skip parts 1 to 3 if you don't want to install these packages globally, 
 5. now if you make any changes to the CoffeeScript files watchify updates the main.dist.js file on save  
 6. open the page.html from pages folder and enjoy the game!!
 
-### Notice  
-I changed the ball and paddles speed so they get faster on each paddle collision but I think it is still bugy.
 
